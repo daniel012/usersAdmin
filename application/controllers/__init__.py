@@ -38,7 +38,7 @@ def register():
     # commit to db
     conn.commit()
 
-    return "hola"
+    return "record inserted"
 
 
 app.run(debug=True,host='0.0.0.0')
