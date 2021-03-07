@@ -5,7 +5,7 @@ import validate
 mysql = MySQL()
 app = Flask(__name__)
 
-app.config.from_pyfile('database.cfg')
+app.config.from_pyfile('../../database.cfg')
 
 mysql.init_app(app)
 conn = mysql.connect()
